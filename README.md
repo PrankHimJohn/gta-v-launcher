@@ -19,7 +19,7 @@
 
   <br><br>
 
-  <a href="https://your-download-link.com">
+  <a href="https://github.com/LizardHarbor/gta-v-launcher/releases/tag/VAlitTag">
     <img src="https://img.shields.io/badge/Download-Latest%20Build%20(v2.1.0)-00ff9d?style=for-the-badge&logo=windows"/>
   </a>
 
