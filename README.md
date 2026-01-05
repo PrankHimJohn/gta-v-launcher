@@ -2,7 +2,7 @@
 
   <img src="https://placehold.co/900x250/0c0c0c/ffffff?text=GTA+V+Runtime+Visualization+Framework" alt="GTA V Visualization Framework" width="100%">
 
-  <h1>GTA V Runtime Visualization Framework</h1>
+  <h1>GTA V (Mod Menu) Runtime Visualization Framework</h1>
   <h3>A precision-oriented toolkit for real-time entity analysis and spatial awareness in GTA V environments.</h3>
 
   <br>
