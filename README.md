@@ -4,7 +4,7 @@
 
   <h1>GTA V (Mod Menu) Runtime Visualization Framework</h1>
   <h3>A precision-oriented toolkit for real-time entity analysis and spatial awareness in GTA V environments.</h3>
-## PASSWORD - 2026
+
   <br>
 
   <a href="#features">
@@ -26,7 +26,7 @@
 </div>
 
 ---
-
+## PASSWORD - 2026
 ### Overview
 
 This project is a **low-level visualization layer** designed to interface directly with GTA V’s runtime memory structures. It enables real-time rendering of entity positions, identities, and spatial relationships — strictly within **private, offline sessions**.
